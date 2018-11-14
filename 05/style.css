@@ -13,7 +13,7 @@ h1 {
     line-height: 55px;
 }
 
-p {
+{
 	font-family: "Helvetica", "Arial", "sans-serif";
 	font-size: 16px;
     font-weight: 400;
@@ -22,6 +22,14 @@ p {
 
 img {
     max-width: 100%;
+}
+
+@media (max-width: 480px) {
+
+	.col-3 {
+
+
+	}
 }
 
 .container {
@@ -43,7 +51,7 @@ img {
 
 }
 
-.col-2, .col-3, .col-4 {
+.col-3 {
 width: calc(33% - 20px);
 height: 20%;
 float: left;
