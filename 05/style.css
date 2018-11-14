@@ -20,6 +20,11 @@ p {
     margin-right: 5em;
 }
 
+img {
+    width: 20rem;
+    height: 20rem;
+}
+
 .container {
 
 	margin: 0 auto;
@@ -35,6 +40,7 @@ p {
 	height: 50%;
 	float: left;
 	background: #09ff09;
+
 }
 
 .col-2, .col-3, .col-4 {
@@ -53,4 +59,5 @@ margin-left: 5em;
 	background: #09ff09;
 	padding: 0px;
 	box-sizing: border-box;
+	background-image: url("cuadrado.png");
 }
